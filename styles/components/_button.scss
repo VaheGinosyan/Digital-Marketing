@@ -1,0 +1,24 @@
+@use '../abstract/' as *;
+@use '../base/' as *;
+
+.btn {
+
+    &--lg {
+        @include color(background-color, btn-lg);
+        @include color(color, primary);
+        @include color(border-color, bg);
+        border: 1px solid;
+        border-radius: 192px;
+        box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
+        padding: crem(27px) crem(62px);
+    }
+
+    &--sm {
+        @include color(background-color, btn-sm);
+        border-radius: 192px;
+        border: 1px solid rgba(237, 255, 129, 0.4);
+        padding: crem(18px) crem(35px);
+    }
+    
+
+}

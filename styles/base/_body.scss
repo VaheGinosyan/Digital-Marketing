@@ -1,0 +1,5 @@
+@use 'typography' as *;
+
+body {
+    @extend %text-md;
+}

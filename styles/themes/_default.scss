@@ -1,0 +1,14 @@
+$colors: (
+    primary: #253D32,
+    bg: #fff,
+    text-color: #78847D,
+    secondary: #A3B938,
+    btn-sm: rgba(255, 255, 255, 0.1),
+    btn-lg: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%)
+);
+
+:root {
+    @each $color, $color-value in $colors {
+        --#{$color}: #{$color-value};
+    }
+}

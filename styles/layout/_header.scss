@@ -1,0 +1,37 @@
+@use '../abstract/' as *;
+@use '../base/' as *;
+
+.main-header {
+    height: crem(852px);
+    background-image: url('../../images/header.jpg');
+    background-size: cover;
+    @include color(background-color, text-color);
+    @include color(color, bg);
+
+    &__container {
+        @include flex($jc: space-between, $ai: center);
+        margin: 0 auto;
+        padding-top: crem(40px);
+        max-width: 1170px;
+    }
+
+
+    &__img {
+        width: crem(190px);
+        height: crem(31px);
+    }
+
+    &__list {
+        @include flex;
+    }
+
+    &__item {
+        @extend %text-sm;
+        padding: crem(18px) crem(26px);
+    }
+
+    &__btn {
+        line-height: 1.875;
+    }
+
+}
