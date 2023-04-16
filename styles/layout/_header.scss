@@ -2,7 +2,8 @@
 @use '../base/' as *;
 
 .main-header {
-    height: crem(852px);
+    min-height: crem(852px);
+    padding-bottom: crem(20px);
     background-image: url('../../images/header.jpg');
     background-size: cover;
     @include color(background-color, text-color);
