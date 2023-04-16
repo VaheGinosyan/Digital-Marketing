@@ -4,10 +4,10 @@
 .btn {
 
     &--lg {
-        @include color(background-color, btn-lg);
-        @include color(color, primary);
+        @include color(background, btn-lg);
+        @include color(color, bg);
+        border: 1px solid #000;
         @include color(border-color, bg);
-        border: 1px solid;
         border-radius: 192px;
         box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
         padding: crem(27px) crem(62px);
