@@ -1,0 +1,12 @@
+@use '../abstract/' as *;
+@use '../base/' as *;
+
+.clients {
+    padding: crem(52px) 0;
+
+    &__list {
+        @include flex($jc: center, $gr: crem(20px), $gc: crem(125px));
+        margin: 0 auto;
+
+    }
+}

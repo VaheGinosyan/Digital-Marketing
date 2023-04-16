@@ -245,7 +245,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 0, 0;
+  gap: 0 0;
   margin: 0 auto;
   padding-top: 2.5rem;
   max-width: 1170px;
@@ -258,7 +258,7 @@ body {
 .main-header__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0, 0;
+  gap: 0 0;
 }
 .main-header__item {
   padding: 1.125rem 1.625rem;
@@ -283,6 +283,17 @@ body {
   opacity: 0.6;
 }
 .main-header__btn-main {
+  margin: 0 auto;
+}
+
+.clients {
+  padding: 3.25rem 0;
+}
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem 7.8125rem;
   margin: 0 auto;
 }
 
