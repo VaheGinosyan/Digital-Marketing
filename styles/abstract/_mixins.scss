@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     justify-content: $jc;
     align-items: $ai;
-    gap: $gr, $gc;
+    gap: $gr $gc;
 }
 
 @mixin typography($ff, $fs, $fw, $lh, $ls: null) {
