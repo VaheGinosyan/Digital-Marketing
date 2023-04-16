@@ -13,6 +13,7 @@
         margin: 0 auto;
         padding-top: crem(40px);
         max-width: 1170px;
+        margin-bottom: crem(105px);
     }
 
 
@@ -31,7 +32,36 @@
     }
 
     &__btn {
-        line-height: 1.875;
+        line-height: 1.1875;
     }
 
+    &__main {
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: crem(30px);
+    }
+
+    &__1st-line {
+        @extend %h3;
+        display: block;
+        opacity: 0.8
+    }
+
+    &__2nd-line {
+        @extend %h1;
+    }
+
+    &__text {
+        @extend %h4;
+        margin: 0 auto;
+        width: crem(686px);
+        margin-bottom: crem(70px);
+        opacity: 0.6;
+    }
+
+    &__btn-main {
+        margin: 0 auto;
+    }
 }
