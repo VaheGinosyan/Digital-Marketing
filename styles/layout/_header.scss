@@ -5,7 +5,7 @@
     min-height: crem(852px);
     padding-bottom: crem(20px);
     background-image: url('../../images/header.jpg');
-    background-size: cover;
+    background-size: contain;
     @include color(background-color, text-color);
     @include color(color, bg);
 
