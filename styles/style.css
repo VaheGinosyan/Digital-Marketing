@@ -234,8 +234,9 @@ body {
 }
 
 .main-header {
-  height: 53.25rem;
-  background-image: url("../../images/header.jpg");
+  min-height: 53.25rem;
+  padding-bottom: 1.25rem;
+  background-image: url("/Digital-Marketing/images/header.jpg");
   background-size: cover;
   background-color: var(--text-color, #78847D);
   color: var(--bg, #fff);
